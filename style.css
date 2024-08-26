@@ -1,0 +1,36 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #222222;
+        --text-color: #ffffff;
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+    color: #188fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  
