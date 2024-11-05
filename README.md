@@ -6,6 +6,6 @@ useful for browser extensions (firefox, chrome, etc). also embeds content on soc
 
 ---
 
-current branches:
+current branch: cat, redirects to a lil cat on google street view
 
-- [bluescreen](https://github.com/wiki-Bird/web-redirects/tree/bluescreen)
+![cat](./cat.png)

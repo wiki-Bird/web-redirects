@@ -1,13 +1,3 @@
 function checkBrowser() {
-    const userAgent = navigator.userAgent.toLowerCase();
-    
-    if (userAgent.indexOf("firefox") > -1) {
-        window.location.href = "#firefox";
-    }
-    else if (userAgent.indexOf("chrome") > -1 || userAgent.indexOf("edge") > -1 || userAgent.indexOf("opera") > -1) {
-        window.location.href = "#chrome";
-    }
-    else {
-        window.location.href = "#default";
-    }
+    window.location.href = "https://www.google.com/maps/@41.895495,12.4773,3a,90y,305.3h,77.12t/data=!3m6!1e1!3m4!1sAF1QipNOPqg6n5ql-PBdGoTcyKgCx0tiwJY4HN27VwjM!2e10!7i5376!8i2688?hl=en&authuser=0";
 }
